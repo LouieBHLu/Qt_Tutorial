@@ -1,7 +1,7 @@
 from datetime import date
 import sys
-from PyQt5.QtCore import QDate, QTime, QDateTime
-from PyQt5.QtWidgets import QApplication, QWidget, QDateTimeEdit, QDateEdit, QTimeEdit, QVBoxLayout
+from PyQt5.QtCore import QDate, QTime, QDateTime, Qt
+from PyQt5.QtWidgets import QLabel, QApplication, QWidget, QDateTimeEdit, QDateEdit, QTimeEdit, QVBoxLayout, QCalendarWidget
 
 EMOTION = {                                                                     # 1 
     '周一': '(╯°Д°)╯︵ ┻━┻',
