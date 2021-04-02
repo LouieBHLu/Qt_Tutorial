@@ -5,9 +5,9 @@ USER_PWD = {
         'mingxuan.lu': 'Hrzgj'
     }
 
-class Demo(QWidget):
+class Login(QWidget):
     def __init__(self):
-        super(Demo, self).__init__()
+        super(Login, self).__init__()
         self.resize(300, 100)
 
         self.user_label = QLabel('Username:', self)
@@ -143,9 +143,8 @@ class SigninPage(QDialog):
 
 
 
-
 if __name__ == '__main__':
     app = QApplication(sys.argv)
-    demo = Demo()
-    demo.show()
+    Login = Login()
+    Login.show()
     sys.exit(app.exec_())
